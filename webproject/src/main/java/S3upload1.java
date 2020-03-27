@@ -22,10 +22,7 @@ public class S3upload1
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args)
 	{
-	
-	//AWSCredentials credentials = new BasicAWSCredentials("AKIAZ2AMB5EXTWRNKNNR","XaKWjjmNHmIRqyimdDq4F3GXxSDa6HgjMZT0P9YJ");//Root creds
-	//AWSCredentials credentials = new BasicAWSCredentials("AKIAZ2AMB5EXZDVJKWY2","3tQlJlcLFku9dilO+y7yIMyCITfIqdjMgfvgawu+");//ASKAdminUser1
-		AWSCredentials credentials = new BasicAWSCredentials("AKIAZ2AMB5EXTWRNKNNR","XaKWjjmNHmIRqyimdDq4F3GXxSDa6HgjMZT0P9YJ");//ASKawsAdmin
+		cred cred = nnn cred;
 	System.setProperty(SDKGlobalConfiguration.DISABLE_CERT_CHECKING_SYSTEM_PROPERTY, "true");
 	AmazonS3 s3client = null;	
 	String bucketName = "awsjenkins1";
